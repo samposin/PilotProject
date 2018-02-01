@@ -1,0 +1,532 @@
+
+
+	/* here you can put your own css to customize and override the admin theme */
+
+
+	.display_control_section{
+	    display: none;
+	}
+
+	.form-actions.display_control_section{
+	    margin-bottom: 25px;
+	}
+
+	.display_value_section{
+	    display: inline-block;
+	}
+
+	label.display_value_section{
+	    font-size: 15px;
+	    font-weight: bold;
+	}
+
+	.table .btn-group .btn{
+	    margin-right: 0px;
+	}
+
+	/* Dropdown To Right Of Text Input */
+	.input-group-btn > select.btn{ padding: 6px 13px 5px 13px; background-color: #F9F9F9; border: 1px solid #DDD; border-left-width: 5px; color:#888; }
+
+	.dashboard-stat2{
+	    cursor: pointer;
+	}
+
+	.ps_box_exists{
+	    background: none repeat scroll 0 0 #c5a553;
+	    display: block;
+	    height: 20px;
+	    width: 20px;
+	    margin: 4px 10px;
+	    float: left;
+	}
+
+	.ps_box_mandatory_not_db{
+	    background: none repeat scroll 0 0 #CCCC9F;
+	    display: block;
+	    height: 20px;
+	    width: 20px;
+	    margin: 4px 10px;
+	    float: left;
+	}
+
+	.ps_box_mandatory
+	{
+	    background: none repeat scroll 0 0 #E57A6D;
+	    display: block;
+	    height: 20px;
+	    width: 20px;
+	    margin: 4px 10px;
+	    float: left;
+	}
+
+	.ps_box_not_db
+	{
+	    background: none repeat scroll 0 0 #FFFFA6;
+	    display: block;
+	    height: 20px;
+	    width: 20px;
+	    margin: 4px 10px;
+	    float: left;
+	}
+
+	.ps_box_exists_tr td
+	{
+	    background: none repeat scroll 0 0 #c5a553;
+	}
+
+
+	.ps_box_mandatory_not_db_td
+	{
+	    background: none repeat scroll 0 0 #CCCC9F;
+	}
+
+	.ps_box_mandatory_td
+	{
+	    background: none repeat scroll 0 0 #E57A6D;
+	}
+
+	.ps_box_not_db_td
+	{
+	    background: none repeat scroll 0 0 #FFFFA6;
+	}
+
+	#on_boarding_datatable_container .table-scrollable > .table > thead > tr > th,
+	#on_boarding_datatable_container .table-scrollable > .table > tbody > tr > th,
+	#on_boarding_datatable_container .table-scrollable > .table > tfoot > tr > th,
+	#on_boarding_datatable_container .table-scrollable > .table > tfoot > tr > th,
+	#on_boarding_datatable_container .table-scrollable > .table > tfoot > tr > td
+	{
+	    white-space:normal;
+	}
+
+
+    /**/
+
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th
+	{
+		/*padding: 5px;*/
+		padding: 3px;
+		vertical-align: middle;
+		padding-left:5px;
+	}
+
+	.page-sidebar .page-sidebar-menu .sub-menu, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu
+	{
+		margin: 4px 0px 4px 0px;
+	}
+
+	.page-sidebar .page-sidebar-menu .sub-menu li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu .sub-menu li > a
+	{
+		padding: 5px 14px 5px 30px;
+	}
+
+	.page-sidebar .page-sidebar-menu > li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a
+	{
+		/*padding: 6px 10px;*/
+		padding: 5px;
+	}
+
+	.page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.active > a, .page-sidebar .page-sidebar-menu > li.active > a{
+		/*padding-left: 10px;*/
+		padding-left: 5px;
+	}
+
+	@media (min-width: 992px) {
+		.page-sidebar {
+			width: 225px;
+		}
+	}
+
+	.page-container {
+	    /*padding: 10px 10px 0 10px;*/
+	    padding: 5px 5px 0 5px;
+	}
+
+	.page-sidebar .page-sidebar-menu, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu
+	{
+		margin: 6px 0 0 0;
+	}
+
+
+	@media (min-width: 992px) {
+		.page-sidebar .page-sidebar-menu {
+			margin-bottom: 6px;
+		}
+	}
+
+
+	@media (min-width: 992px) {
+		.page-content-wrapper .page-content {
+			/*padding: 0px 0 0 10px;*/
+			padding: 0px 0 0 5px;
+			margin-left: 225px;
+		}
+
+
+		body .page-container .page-content-wrapper .page-content >.row
+		{
+			margin-left:0px;
+			margin-right:0px;
+		}
+
+		body .page-container .page-content-wrapper .page-content > .row > *[class*="col-"]:first-child,
+		body .page-container .page-content-wrapper .page-content .profile-content > .row > *[class*="col-"]:first-child
+		{
+			padding-left:0px;
+
+		}
+
+		body .page-container .page-content-wrapper .page-content > .row > *[class*="col-"],
+		body .page-container .page-content-wrapper .page-content .profile-content > .row > *[class*="col-"]
+		{
+			padding-left:0px;
+
+		}
+
+		body .page-container .page-content-wrapper .page-content > .row > *[class*="col-"]:last-child,
+		body .page-container .page-content-wrapper .page-content .profile-content > .row > *[class*="col-"]:last-child
+		{
+			padding-right:0px;
+
+		}
+		/*
+		body .page-container .page-content-wrapper .page-content > .row > *[class*="col-"]:only-child
+		{
+			padding-left:0px;
+			padding-right:0px;
+		}*/
+
+
+
+	}
+
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9
+	{
+		padding-left:5px;
+		padding-right:5px;
+	}
+
+
+	.two-column-layout-form.form-horizontal .form-group
+	{
+		margin-right:0px;
+		margin-left:0px;
+	}
+
+
+	@media screen and (min-width: 768px) {
+        .modal-dialog {
+          width: 900px; /* New width for default modal */
+          /*width: 75%;*/
+        }
+        .modal-sm {
+          width: 350px; /* New width for small modal */
+        }
+    }
+
+
+    @media screen and (min-width: 992px) {
+        .modal-lg {
+          width: 950px; /* New width for large modal */
+        }
+    }
+
+
+    .modal-body,.modal-header,.modal-footer{
+		padding:10px;
+    }
+
+    .form-group{
+		margin-bottom:10px;
+    }
+    .form-control{
+	    height: auto;
+        /*padding: 6px 6px;*/
+        padding: 5px 5px;
+    }
+    .row{
+		margin-right: 0;
+        margin-left: 0;
+    }
+
+    .form-horizontal .form-group {
+	    margin-right:0;
+	    margin-left: 0;
+	}
+
+	.portlet {
+		margin-bottom: 10px;
+	}
+
+    .portlet.light {
+	    /*padding: 10px 10px 10px 10px;*/
+	    padding: 5px 5px 5px 5px;
+	}
+
+	.portlet.light .portlet-body {
+	    padding-top: 5px;
+	}
+
+	.portlet > .portlet-title {
+		    margin-bottom: 5px;
+	}
+
+	.portlet.light > .portlet-title {
+
+	    /*min-height: 38px;*/
+	    min-height: 33px;
+	}
+
+	.portlet.light > .portlet-title > .caption{
+		    padding: 5px 0;
+	}
+
+	.portlet.light > .portlet-title > .actions{
+		/*padding:0px 0 10px 0;*/
+		padding:0px 0 5px 0;
+	}
+
+	.page-header.navbar{
+		/*height: 60px;
+        min-height: 60px;*/
+        height: 55px;
+        min-height: 55px;
+	}
+	.page-header.navbar .page-logo{
+		/*height: 60px;
+		padding-left: 10px;*/
+		height: 55px;
+		padding-left: 5px;
+		width: 250px;
+	}
+	.page-header.navbar .top-menu .navbar-nav{
+		/*margin-right: 10px;*/
+		margin-right: 5px;
+	}
+
+	.page-header.navbar .top-menu .navbar-nav > li.dropdown{
+		/*height: 60px;*/
+		height: 55px;
+	}
+
+	.page-header.navbar .menu-toggler.sidebar-toggler{
+		    float: right;
+            margin: 25px 0 0 0;
+	}
+	.page-header.navbar .page-top{
+		    /*height: 60px;*/
+		    height: 55px;
+            float: right;
+	}
+	.page-header.navbar .top-menu .navbar-nav > li.dropdown-user .dropdown-toggle{
+		    /*padding: 18px 10px 10px 10px;*/
+		    padding: 15px 8px 8px 8px;
+	}
+
+	.page-header-fixed .page-container{
+		/*margin-top: 59px;*/
+		margin-top: 54px;
+	}
+
+	/*.help-block-error:empty{
+	    display:none;
+	}
+	*/
+
+	.help-block-error{
+		margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 1.8em
+	}
+
+	.alert {
+		padding: 10px;
+		margin-bottom: 15px;
+	}
+
+	.custom-phone-group  > *[class*="col-"]:first-child
+    {
+        padding-left:0;
+        padding-right:10px;
+    }
+    .custom-phone-group  > *[class*="col-"]:nth-child(2){
+        padding-left: 10px;
+    }
+    .custom-phone-group  > *[class*="col-"]:nth-child(2):before {
+        content: "X";
+        position: absolute;
+        left: -4px;
+        top: 6px;
+    }
+
+    .custom-phone-group  > *[class*="col-"]:last-child{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .custom-zip-group  > *[class*="col-"]:first-child
+    {
+        padding-left:0;
+        padding-right:10px;
+    }
+    .custom-zip-group  > *[class*="col-"]:nth-child(2){
+        padding-left: 10px;
+    }
+    .custom-zip-group  > *[class*="col-"]:nth-child(2):before {
+        content: "-";
+        position: absolute;
+        left: -3px;
+        top: 6px;
+    }
+
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+	.two-column-layout div[class*="col-"] + div[class*="col-"] {
+        margin-top: 0;
+    }
+
+
+    /*.modal-dialog {
+        width: 60%;
+    }*/
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+        .two-column-layout div[class*="col-"] + div[class*="col-"] {
+	        margin-top: 15px;
+	    }
+
+	    /*.modal-dialog {
+            width: 73%;
+        }*/
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+        .two-column-layout div[class*="col-"] + div[class*="col-"] {
+	        margin-top: 15px;
+	    }
+	    /*.modal-dialog {
+            width: 95%;
+        }*/
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		.two-column-layout div[class*="col-"] + div[class*="col-"] {
+	        margin-top: 15px;
+	    }
+	    /*.modal-dialog {
+            width: 80%;
+            margin: 30px auto;
+        }*/
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+        /*.modal-dialog {
+            width: 100%;
+            margin: 30px auto;
+        }*/
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+        /*.modal-dialog {
+            width: 75%;
+        }
+        */
+
+    }
+
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+    @media (min-width: 992px) {
+        .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li > a {
+            min-height: auto;
+        }
+    }
+
+    .page-sidebar-closed .page-sidebar .page-sidebar-menu.page-sidebar-menu-closed > li:not(.heading):hover {
+		width: 250px !important;
+	}
+
+	.table-scrollable{
+		margin: 5px 0 !important;
+	}
+
+	.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline{
+        margin-left: 0px;
+    }
+    .btn{
+        padding: 6px 14px;
+    }
+
+    .form-horizontal .control-label{
+        text-align: right;
+    }
+
+    div.dataTables_filter label
+    {
+        float:left;
+    }
+
+    .table-hover > tbody > tr:hover{
+		background-color:#5C9BD1;
+		cursor: pointer;
+	}
+
+	.page-sidebar .page-sidebar-menu > li.heading, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li.heading{
+		height: 40px;
+        padding: 20px 15px 7px 5px;
+	}
+
+	div.dataTables_filter label
+    {
+        float:left;
+    }
+
+	/**/
